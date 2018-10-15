@@ -1,12 +1,12 @@
 import React from 'react';
- 
-class ImageSlider extends React.Component { 
-  constructor() { 
+
+class ImageSlider extends React.Component {
+  constructor() {
     this.state = {
       currentSlideIndex: 0
     }
   }
- 
+
   render() {
     return (
       <div className="current-slide">
@@ -15,5 +15,5 @@ class ImageSlider extends React.Component {
     )
   }
 }
- 
+
 export default ImageSlider;
